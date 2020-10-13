@@ -4,6 +4,7 @@ library(quantmod)
 library(tidyquant)
 library(ggplot2)
 library(timeSeries)
+library(dplyr)
 
 symbol <- c('ATVI','ADBE','AMD', 'ALGN',
             'ALXN', 'AMZN','AMGN', 'AAL',
